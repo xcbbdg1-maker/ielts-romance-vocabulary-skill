@@ -1,0 +1,31 @@
+{
+  "chapter_title": "第一章：示例",
+  "pronunciation": "British",
+  "density_mode": "Custom",
+  "segments": [
+    {
+      "number": 1,
+      "story": "她把这次相遇视为 a plausible coincidence（一次看似可信的巧合），却注意到他始终 maintain a cautious distance（保持谨慎距离）。",
+      "terms": [
+        {
+          "term": "a plausible coincidence",
+          "ipa": "/ə ˈplɔː.zə.bəl kəʊˈɪn.sɪ.dəns/",
+          "pos": "名词短语",
+          "meaning": "一次看似可信的巧合",
+          "formation": "plausible 与 plausibility 同族；coincidence 与 coincide 同族",
+          "collocation": "dismiss something as a coincidence",
+          "error_note": "plausible 表示‘貌似合理可信’，不等于已经证实"
+        },
+        {
+          "term": "maintain a cautious distance",
+          "ipa": "/meɪnˈteɪn ə ˈkɔː.ʃəs ˈdɪs.təns/",
+          "pos": "动词短语",
+          "meaning": "保持谨慎距离",
+          "formation": "maintain 与 maintenance 同族；cautious 与 caution 同族",
+          "collocation": "maintain a safe distance",
+          "error_note": ""
+        }
+      ]
+    }
+  ]
+}
