@@ -1,5 +1,8 @@
 {
-  "status": "pass",
+  "status": "withdrawn_content_quality_failure",
+  "historical_record": true,
+  "public_artifacts_available": false,
+  "scope_note": "The listed files passed package and layout checks only. A later content audit found mechanical word dumping and inadequate plot realization; Chapters 2-50 were withdrawn on 2026-08-12.",
   "source_chain": {
     "polished_assignments_sha256": "6d95faf2db7ac47feb2bab5a863839a2f3376a8ed70bcf9977710e8b590686d9",
     "series_index_sha256": "3ff2403cb0accd7db20626ee49903df3bd4761f83dd9844ce7160c10e5dfa000",
@@ -255,3 +258,4 @@
   ],
   "errors": []
 }
+

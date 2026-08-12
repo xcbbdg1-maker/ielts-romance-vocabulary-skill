@@ -2,19 +2,21 @@
 
 把分散的 IELTS 标签词汇放进一条连续的中文爱情悬疑故事：英文词或词组直接嵌入中文语境，后接中文括注；每个短段后再给出英式音标、语境义、构词或词族提示、搭配和必要的易错提醒。
 
-## 先看真正需要读多少页
+> **内容重写中（2026-08-12）**：经重新审读，第2—50章公开Word虽通过了覆盖和排版校验，但正文采用了机械分词与模板填充，剧情和自然语境不合格。第2—50章现版本已撤回，不应继续作为学习材料。第一章暂留作质量参考；新版将按每个学习小章30—40词、剧情先行、每句最多2个新词的标准重写，并在第2章内容验收后再逐批发布。
 
-**不要被完整版的 3,426 页吓到。** 这里面大部分是逐词音标、释义、构词、搭配与易错说明。把这些段后词卡全部移除，只保留 50 章高密度双语故事、行内中文括注和必要的标题页，实测为 **897 页**，平均 **17.9 页/章，约 18 页/章**。
+## 旧版页数审计（不代表当前可读成品）
+
+以下数字来自已撤回的机械稿，只用于解释页数测量方法，不能证明其剧情或教学质量。旧版完整稿共3,426页；移除段后词卡后为897页。新版重写完成后会重新统计，不能沿用这组数字宣传新版。
 
 | 口径 | 实测页数 | 怎么理解 |
 | --- | ---: | --- |
-| 高密度双语正文（50 章） | **897 页** | 真正需要顺着剧情阅读的主体；平均 17.9 页/章 |
-| 完整学习版（50 章） | 3,426 页 | 正文 + 每段后的多行词汇精讲 |
-| 词汇精讲与版式增量 | 2,529 页 | 约占完整版 73.8%，主要用于查阅和复习，不必一次线性读完 |
+| 已撤回旧版正文计数 | **897 页** | 仅说明移除词卡后的历史页数，不代表合格小说 |
+| 已撤回旧版完整计数 | 3,426 页 | 旧正文 + 每段后的多行词汇精讲 |
+| 旧版词汇精讲与版式增量 | 2,529 页 | 历史审计差额，新版需重测 |
 
 页数不是按字数估算，而是将 Word 实际转换为 PDF 后统计。两种版本均使用 US Letter、1 英寸页边距和同一套正文样式；“正文计数版”只移除了 `Vocabulary Label`、`Definition`、`Unit Divider` 三类词卡段落，保留英文、中文语境和行内括注。可复核数据见 [`evidence/page-count-audit.json`](evidence/page-count-audit.json)，复现脚本见 [`scripts/build_story_only_docx.py`](scripts/build_story_only_docx.py) 与 [`scripts/render_story_only_counts.py`](scripts/render_story_only_counts.py)。
 
-### 分卷页数
+### 已撤回旧版的分卷页数
 
 | 文件 | 章节 | 完整版 | 仅正文 |
 | --- | ---: | ---: | ---: |
@@ -33,28 +35,18 @@
 
 ## 下载 Word
 
-建议按顺序阅读。11 份 Word 已统一放在 [`examples/full-series`](examples/full-series)；文件名前缀 `01`–`11` 就是阅读顺序。GitHub 可以预览文件列表，但 `.docx` 需要下载后用 Word 或兼容软件打开。
+目前只保留第一章。第2—50章旧版已撤回，避免继续传播不合格正文。GitHub 可以预览文件列表，但 `.docx` 需要下载后用 Word 或兼容软件打开。
 
 1. [01《零点回声》｜第 1 章](examples/full-series/01_零点回声_第01章.docx)
-2. [02《裂城身份》｜第 2–6 章](examples/full-series/02_裂城身份_第02-06章.docx)
-3. [03《失踪课表》｜第 7–11 章](examples/full-series/03_失踪课表_第07-11章.docx)
-4. [04《潮线证词》｜第 12–16 章](examples/full-series/04_潮线证词_第12-16章.docx)
-5. [05《数字迷城》｜第 17–21 章](examples/full-series/05_数字迷城_第17-21章.docx)
-6. [06《玻璃办公室》｜第 22–26 章](examples/full-series/06_玻璃办公室_第22-26章.docx)
-7. [07《白色走廊》｜第 27–31 章](examples/full-series/07_白色走廊_第27-31章.docx)
-8. [08《无声藏品》｜第 32–36 章](examples/full-series/08_无声藏品_第32-36章.docx)
-9. [09《舆论风暴》｜第 37–40 章](examples/full-series/09_舆论风暴_第37-40章.docx)
-10. [10《法庭回声》｜第 41–45 章](examples/full-series/10_法庭回声_第41-45章.docx)
-11. [11《世界尽头的潮声》｜第 46–50 章](examples/full-series/11_世界尽头的潮声_第46-50章.docx)
 
-所有 Word 的文件大小与 SHA-256 见 [`evidence/word-files.sha256`](evidence/word-files.sha256)。
+第一章 Word 的文件大小与 SHA-256 见 [`evidence/word-files.sha256`](evidence/word-files.sha256)。
 
 ## 这套材料覆盖了什么
 
 - 59 份带 IELTS 标签的开源词表共有 57,895 条原始记录；其中 57,894 条有有效 `term`。
 - 经 Unicode NFKC、大小写、空格和连字符标准化后，得到 **19,435 个主表稳定条目**。
-- 第一章以 390 个组合教学单位呈现，关联 553 个不同主表条目；第 2–50 章分配剩余 18,882 个条目。
-- 主表覆盖为 **19,435 / 19,435**，遗漏 0，跨章重复分配 0；全书共 50 章、3,000 个短段。
+- 第一章以 390 个组合教学单位呈现，关联 553 个不同主表条目；因此新版待重新分配池共有18,882项。
+- **19,435 / 19,435** 是已撤回旧稿的历史覆盖账，不代表新版正文已经完成；新版当前只发布第一章，其余18,882项仍待剧情优先重写。
 - 条目类型包括 13,106 个单词、5,423 个短语和 906 个完整句。
 
 因此，仓库里常说的“约 2 万词汇”是便于理解的简称，严格口径是 **19,435 个去重后的词、词组或句型条目**，不是 19,435 个都互不相关的单个词形。
@@ -73,16 +65,24 @@
 
 > 使用 `$ielts-romance-vocabulary-skill`，把我的 IELTS 词表改写成高密度中文语境故事；每个英文词后加中文括注，并在每个小段后给多行精讲。
 
-核心工作流见 [`SKILL.md`](SKILL.md)。Skill 会先做标准化与去重、建立章节配额，再生成高密度双语正文、段后词卡和 Word，并要求结构校验与逐页视觉检查。
+核心工作流见 [`SKILL.md`](SKILL.md)。Skill 会先做标准化与去重、建立剧情场景，再按语义适配词汇，生成双语正文、段后词卡和 Word，并要求内容、结构、语言与逐页视觉检查。
+
+新版章节在生成 Word 前必须先保存为结构化 JSON，并运行剧情优先校验：
+
+```powershell
+python scripts/validate_story_first_chapter.py path/to/chapter.json --expected-total 385
+```
+
+校验器默认要求每个学习小章 30–40 项、每段 3–4 项、每句最多首次引入 2 项；同时拦截词汇清单式堆砌、提纲元语言、重复换词模板、剧情状态缺失和正文与词表顺序不一致。它会列出相邻小章的出场/入场状态供人工核对，但不能替代对因果、人物动机和中文自然度的人工审读。
 
 ## 验收情况
 
-- 全集结构校验：主表 19,435 项全部覆盖；错误 0；仅保留 1 组已知上游写法碰撞警告（`non - fiction` / `non-fiction`），两个稳定 ID 均未丢失。
-- 10 个续作 Word：49 章、2,940 段、18,882 项，文件包结构检查全部通过。
-- 第一章与 10 个续作 Word 均完成实际 PDF 渲染；总计 3,426 页。
-- 修复版 10 卷的 3,363 页已经逐页视觉检查，未发现截断、重叠、乱码、异常空白页、页眉页码异常或字面 `**` 残留；第一章沿用此前已验收成品。
+- 旧稿的覆盖、文件结构与视觉排版检查曾通过，但2026-08-12内容复审判定第2—50章剧情不合格，故已撤回。
+- 第2章385项中只有57项与章节主题匹配；旧生成器把每段6—7项拆成两个词串套入固定模板。
+- 新版验收将覆盖检查与内容检查分开：数量通过不再等于小说完成。
+- 第一章Word继续公开；第2—50章必须按新规则重写并通过剧情、语言、词卡和逐页排版四类验收后才重新发布。
 
-验收摘要见 [`evidence/final-delivery-validation.json`](evidence/final-delivery-validation.json)。
+旧版机械验收摘要仍保存在 [`evidence/final-delivery-validation.json`](evidence/final-delivery-validation.json)，只用于追溯失败过程，不代表当前成品。
 
 ## 重要限制
 
@@ -95,7 +95,9 @@
 
 ## 可复核文件
 
-- [`evidence/page-count-audit.json`](evidence/page-count-audit.json)：完整版与正文计数版逐卷页数、统计方法和总计。
-- [`evidence/final-delivery-validation.json`](evidence/final-delivery-validation.json)：10 卷文件结构、数量和哈希验收。
-- [`evidence/full-series-validation.json`](evidence/full-series-validation.json)：19,435 个主表条目的全集覆盖验收。
-- [`evidence/word-files.sha256`](evidence/word-files.sha256)：11 份公开 Word 的文件级哈希。
+- [`evidence/page-count-audit.json`](evidence/page-count-audit.json)：已撤回旧版的历史页数与统计方法。
+- [`evidence/final-delivery-validation.json`](evidence/final-delivery-validation.json)：已撤回旧版的文件结构验收，仅供追溯。
+- [`evidence/full-series-validation.json`](evidence/full-series-validation.json)：已撤回旧版的覆盖验收，仅能证明分配数量。
+- [`evidence/content-quality-audit-2026-08-12.md`](evidence/content-quality-audit-2026-08-12.md)：撤回决定、直接证据、根因和新版门槛。
+- [`evidence/word-files.sha256`](evidence/word-files.sha256)：当前公开的第一章Word文件级哈希。
+

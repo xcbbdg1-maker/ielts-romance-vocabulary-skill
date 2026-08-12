@@ -1,4 +1,5 @@
 interface:
   display_name: "IELTS Romance Vocabulary Story"
-  short_description: "Turn IELTS vocabulary into dense bilingual stories"
-  default_prompt: "Use $ielts-romance-vocabulary-skill to turn my IELTS word list into a high-density Chinese story with inline translations and segment-level vocabulary notes."
+  short_description: "Build plot-first IELTS stories without word dumping"
+  default_prompt: "Use $ielts-romance-vocabulary-skill to turn my IELTS word list into plot-first Chinese stories with natural inline translations and paragraph-level vocabulary notes."
+

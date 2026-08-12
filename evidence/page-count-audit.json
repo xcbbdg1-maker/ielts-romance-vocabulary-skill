@@ -1,5 +1,7 @@
 {
-  "status": "pass",
+  "status": "historical_withdrawn_draft_measurement",
+  "historical_record": true,
+  "scope_note": "These page counts describe a withdrawn mechanical draft and must not be presented as page counts for the rewritten edition.",
   "measured_at": "2026-08-12",
   "page_setup": {
     "paper": "US Letter",
@@ -34,3 +36,4 @@
     "annotation_and_layout_increment_share_percent": 73.82
   }
 }
+

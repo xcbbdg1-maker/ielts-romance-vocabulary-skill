@@ -1,5 +1,8 @@
 {
-  "status": "pass",
+  "status": "withdrawn_content_quality_failure",
+  "historical_record": true,
+  "public_artifacts_available": false,
+  "scope_note": "This manifest records the packaging checks of a withdrawn mechanical draft. The files passed structural checks but failed later narrative-quality review and are no longer published.",
   "series": "《零点回声：五十章雅思高密度爱情悬疑》",
   "scope": "第2—50章；第一章另有既有Word",
   "volumes": 10,
@@ -308,3 +311,4 @@
     }
   ]
 }
+
