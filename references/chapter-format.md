@@ -9,6 +9,28 @@
 
 ## Structured manifest
 
+Use a large story chapter as a navigation container. Put 30–40-unit learning episodes inside `mini_chapters`; do not equate one Word heading with one vocabulary-loading unit.
+
+Each mini chapter must record a scene contract before its paragraphs:
+
+```json
+{
+  "number": 1,
+  "title": "雨棚下的警告",
+  "entry_state": "听证会前夜，江穗和陆岑在旧城区公交站；两人刚收到程叙的定位。",
+  "goal": "确认发信人是否真是江屿。",
+  "conflict": "江穗不能判断陆岑是否参与隐瞒。",
+  "choice": "她决定当面赴约，但要求双方共享设备和撤离方案。",
+  "consequence": "程叙说出只有兄妹知道的童年细节。",
+  "exit_state": "江穗高度怀疑程叙是哥哥，但尚无可公开的身份验证。",
+  "required_facts": ["直接承接‘别相信陆岑’"],
+  "forbidden_facts": ["不得提前完成DNA确认"],
+  "paragraphs": []
+}
+```
+
+Every paragraph needs one concrete `event`, one `emotional_turn`, a two- or three-sentence `story`, and three or four semantically compatible `terms`. A mini chapter normally contains 30–40 unique units.
+
 Create the chapter as UTF-8 JSON before rendering Markdown or DOCX:
 
 ```json
@@ -45,7 +67,7 @@ Create the chapter as UTF-8 JSON before rendering Markdown or DOCX:
 }
 ```
 
-The sample contains only two terms for readability. Validate a small test with explicit limits:
+The legacy single-level sample below contains only two terms for readability. New long-form work should use the mini-chapter schema above. Validate a small test with explicit limits:
 
 `python scripts/validate_chapter.py sample.json --min-terms-per-segment 2 --max-terms-per-segment 2 --expected-total 2`
 
@@ -98,10 +120,15 @@ Count teaching units after:
 
 Do not merge genuinely different forms such as `economic` and `economical`. Do merge display-only variants such as `mixed–use` and `mixed-use`.
 
-Use an allocation matrix, not mental arithmetic. For alternating quotas:
+Use an allocation matrix, not mental arithmetic. Keep coverage accounting separate from prose geometry. Do not use the old 60-segment × 6–7-unit pattern for new work.
+
+For a 385-unit large chapter, one valid navigation split is five 39-unit and five 38-unit learning episodes. Inside each episode, use paragraphs of at most four units and sentences of at most two. The exact paragraph count may vary with the story.
+
+For arithmetic-only audits, a quota still follows:
 
 `total = odd_segment_count × odd_quota + even_segment_count × even_quota`
 
 For 60 segments alternating 7 and 6:
 
 `30 × 7 + 30 × 6 = 390`
+
