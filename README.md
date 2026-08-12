@@ -33,19 +33,19 @@
 
 ## 下载 Word
 
-建议按顺序阅读。GitHub 可以预览文件列表，但 `.docx` 需要下载后用 Word 或兼容软件打开。
+建议按顺序阅读。11 份 Word 已统一放在 [`examples/full-series`](examples/full-series)；文件名前缀 `01`–`11` 就是阅读顺序。GitHub 可以预览文件列表，但 `.docx` 需要下载后用 Word 或兼容软件打开。
 
-1. [第一章《零点回声》｜第 1 章](examples/IELTS爱情词汇小说_第一章_零点回声_逐词多行精讲.docx)
-2. [卷01《裂城身份》｜第 2–6 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷01_裂城身份_第02-06章.docx)
-3. [卷02《失踪课表》｜第 7–11 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷02_失踪课表_第07-11章.docx)
-4. [卷03《潮线证词》｜第 12–16 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷03_潮线证词_第12-16章.docx)
-5. [卷04《数字迷城》｜第 17–21 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷04_数字迷城_第17-21章.docx)
-6. [卷05《玻璃办公室》｜第 22–26 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷05_玻璃办公室_第22-26章.docx)
-7. [卷06《白色走廊》｜第 27–31 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷06_白色走廊_第27-31章.docx)
-8. [卷07《无声藏品》｜第 32–36 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷07_无声藏品_第32-36章.docx)
-9. [卷08《舆论风暴》｜第 37–40 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷08_舆论风暴_第37-40章.docx)
-10. [卷09《法庭回声》｜第 41–45 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷09_法庭回声_第41-45章.docx)
-11. [卷10《世界尽头的潮声》｜第 46–50 章](examples/full-series/IELTS爱情词汇小说_全量续作_卷10_世界尽头的潮声_第46-50章.docx)
+1. [01《零点回声》｜第 1 章](examples/full-series/01_零点回声_第01章.docx)
+2. [02《裂城身份》｜第 2–6 章](examples/full-series/02_裂城身份_第02-06章.docx)
+3. [03《失踪课表》｜第 7–11 章](examples/full-series/03_失踪课表_第07-11章.docx)
+4. [04《潮线证词》｜第 12–16 章](examples/full-series/04_潮线证词_第12-16章.docx)
+5. [05《数字迷城》｜第 17–21 章](examples/full-series/05_数字迷城_第17-21章.docx)
+6. [06《玻璃办公室》｜第 22–26 章](examples/full-series/06_玻璃办公室_第22-26章.docx)
+7. [07《白色走廊》｜第 27–31 章](examples/full-series/07_白色走廊_第27-31章.docx)
+8. [08《无声藏品》｜第 32–36 章](examples/full-series/08_无声藏品_第32-36章.docx)
+9. [09《舆论风暴》｜第 37–40 章](examples/full-series/09_舆论风暴_第37-40章.docx)
+10. [10《法庭回声》｜第 41–45 章](examples/full-series/10_法庭回声_第41-45章.docx)
+11. [11《世界尽头的潮声》｜第 46–50 章](examples/full-series/11_世界尽头的潮声_第46-50章.docx)
 
 所有 Word 的文件大小与 SHA-256 见 [`evidence/word-files.sha256`](evidence/word-files.sha256)。
 
@@ -99,4 +99,3 @@
 - [`evidence/final-delivery-validation.json`](evidence/final-delivery-validation.json)：10 卷文件结构、数量和哈希验收。
 - [`evidence/full-series-validation.json`](evidence/full-series-validation.json)：19,435 个主表条目的全集覆盖验收。
 - [`evidence/word-files.sha256`](evidence/word-files.sha256)：11 份公开 Word 的文件级哈希。
-
