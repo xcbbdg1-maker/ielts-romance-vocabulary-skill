@@ -1,0 +1,527 @@
+{
+  "status": "pass",
+  "validation_scope": "full_series",
+  "accounting_model": {
+    "master_source_total": 19435,
+    "chapter_01_display_teaching_units": 390,
+    "chapter_01_distinct_master_source_units": 553,
+    "chapter_01_unmatched_extra_display_units": 1,
+    "chapters_02_50_master_source_units": 18882,
+    "coverage_equation": "553 + 18882 = 19435"
+  },
+  "inputs": {
+    "note": "Source paths were redacted for public release; hashes and counts preserve the audit chain."
+  },
+  "counts": {
+    "master_records": 19435,
+    "master_unique_unit_ids": 19435,
+    "master_unique_ordinals": 19435,
+    "master_unique_normalized_keys": 19435,
+    "master_unique_strict_canonical_keys": 19434,
+    "master_strict_canonical_collision_groups": 1,
+    "chapter_01_display_teaching_units": 390,
+    "chapter_01_unique_teaching_keys": 390,
+    "chapter_01_distinct_master_source_units": 553,
+    "chapter_01_source_match_links": 681,
+    "chapter_01_unmatched_display_units": 1,
+    "allocation_later_chapters": 49,
+    "allocation_remaining_source_units": 18882,
+    "remaining_pool_source_units": 18882,
+    "assignment_registry_rows": 19435,
+    "assignment_registry_unique_source_ids": 19435,
+    "assignment_registry_chapter_01_sources": 553,
+    "assignment_registry_later_sources": 18882,
+    "assignment_registry_later_chapters": 49,
+    "chapter_briefs_loaded": 49,
+    "chapter_brief_segments": 2940,
+    "chapter_brief_terms": 18882,
+    "later_chapters_loaded": 49,
+    "later_segments": 2940,
+    "later_display_teaching_units": 18882,
+    "later_source_records": 18882,
+    "later_unique_source_ids": 18882,
+    "later_unique_source_ordinals": 18882,
+    "all_master_source_units_covered": 19435,
+    "all_display_teaching_units": 19272,
+    "extra_non_master_display_units": 1
+  },
+  "chapters": [
+    {
+      "chapter_number": 2,
+      "manifest": "chapter_02.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 3,
+      "manifest": "chapter_03.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 4,
+      "manifest": "chapter_04.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 5,
+      "manifest": "chapter_05.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 6,
+      "manifest": "chapter_06.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 7,
+      "manifest": "chapter_07.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 8,
+      "manifest": "chapter_08.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 9,
+      "manifest": "chapter_09.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 10,
+      "manifest": "chapter_10.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 11,
+      "manifest": "chapter_11.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 12,
+      "manifest": "chapter_12.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 13,
+      "manifest": "chapter_13.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 14,
+      "manifest": "chapter_14.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 15,
+      "manifest": "chapter_15.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 16,
+      "manifest": "chapter_16.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 17,
+      "manifest": "chapter_17.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 18,
+      "manifest": "chapter_18.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 19,
+      "manifest": "chapter_19.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 20,
+      "manifest": "chapter_20.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 21,
+      "manifest": "chapter_21.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 22,
+      "manifest": "chapter_22.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 23,
+      "manifest": "chapter_23.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 24,
+      "manifest": "chapter_24.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 25,
+      "manifest": "chapter_25.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 26,
+      "manifest": "chapter_26.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 27,
+      "manifest": "chapter_27.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 28,
+      "manifest": "chapter_28.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 29,
+      "manifest": "chapter_29.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 30,
+      "manifest": "chapter_30.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 31,
+      "manifest": "chapter_31.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 32,
+      "manifest": "chapter_32.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 33,
+      "manifest": "chapter_33.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 34,
+      "manifest": "chapter_34.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 35,
+      "manifest": "chapter_35.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 36,
+      "manifest": "chapter_36.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 37,
+      "manifest": "chapter_37.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 38,
+      "manifest": "chapter_38.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 39,
+      "manifest": "chapter_39.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 40,
+      "manifest": "chapter_40.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 41,
+      "manifest": "chapter_41.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 42,
+      "manifest": "chapter_42.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 43,
+      "manifest": "chapter_43.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 44,
+      "manifest": "chapter_44.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 45,
+      "manifest": "chapter_45.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 46,
+      "manifest": "chapter_46.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 47,
+      "manifest": "chapter_47.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 48,
+      "manifest": "chapter_48.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    },
+    {
+      "chapter_number": 49,
+      "manifest": "chapter_49.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 385,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 385,
+      "actual_master_source_units": 385
+    },
+    {
+      "chapter_number": 50,
+      "manifest": "chapter_50.json",
+      "expected_segments": 60,
+      "expected_master_source_units": 386,
+      "actual_segments": 60,
+      "actual_display_teaching_units": 386,
+      "actual_master_source_units": 386
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    {
+      "code": "known_master_strict_canonical_collision",
+      "location": "master_lexicon",
+      "message": "known source pair shares a strict canonical key; both stable IDs remain mandatory",
+      "details": {
+        "strict_canonical_key": "non-fiction",
+        "records": [
+          {
+            "unit_id": "u011736",
+            "source_ordinal": 11736,
+            "source_term": "non - fiction",
+            "normalized_source_key": "non - fiction"
+          },
+          {
+            "unit_id": "u011740",
+            "source_ordinal": 11740,
+            "source_term": "non-fiction",
+            "normalized_source_key": "non-fiction"
+          }
+        ]
+      }
+    },
+    {
+      "code": "known_source_collision_teaching_forms",
+      "location": "chapter_33.segment_16.term_05",
+      "message": "both known colliding source forms are retained under their stable IDs",
+      "details": {
+        "strict_canonical_key": "non-fiction",
+        "first_unit_id": "u011740",
+        "first_location": "chapter_09.segment_07.term_06",
+        "current_unit_id": "u011736"
+      }
+    }
+  ]
+}

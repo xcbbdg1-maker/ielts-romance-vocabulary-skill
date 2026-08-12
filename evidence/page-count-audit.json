@@ -1,0 +1,36 @@
+{
+  "status": "pass",
+  "measured_at": "2026-08-12",
+  "page_setup": {
+    "paper": "US Letter",
+    "orientation": "portrait",
+    "margins_inches": 1,
+    "renderer": "LibreOffice PDF export"
+  },
+  "method": {
+    "full_edition": "Render the published DOCX files without content changes.",
+    "story_only_edition": "Preserve covers, chapter headings, story paragraphs, English teaching units, inline Chinese glosses, typography, and page geometry; remove paragraphs styled Vocabulary Label, Definition, or Unit Divider.",
+    "note": "The story-only files are internal measurement artifacts, not replacement study editions."
+  },
+  "files": [
+    {"label": "第一章《零点回声》", "chapters": "1", "full_pages": 63, "story_only_pages": 13},
+    {"label": "卷01《裂城身份》", "chapters": "2-6", "full_pages": 348, "story_only_pages": 91},
+    {"label": "卷02《失踪课表》", "chapters": "7-11", "full_pages": 346, "story_only_pages": 92},
+    {"label": "卷03《潮线证词》", "chapters": "12-16", "full_pages": 343, "story_only_pages": 89},
+    {"label": "卷04《数字迷城》", "chapters": "17-21", "full_pages": 340, "story_only_pages": 90},
+    {"label": "卷05《玻璃办公室》", "chapters": "22-26", "full_pages": 335, "story_only_pages": 87},
+    {"label": "卷06《白色走廊》", "chapters": "27-31", "full_pages": 346, "story_only_pages": 92},
+    {"label": "卷07《无声藏品》", "chapters": "32-36", "full_pages": 343, "story_only_pages": 91},
+    {"label": "卷08《舆论风暴》", "chapters": "37-40", "full_pages": 278, "story_only_pages": 73},
+    {"label": "卷09《法庭回声》", "chapters": "41-45", "full_pages": 339, "story_only_pages": 88},
+    {"label": "卷10《世界尽头的潮声》", "chapters": "46-50", "full_pages": 345, "story_only_pages": 91}
+  ],
+  "totals": {
+    "chapters": 50,
+    "full_pages": 3426,
+    "story_only_pages": 897,
+    "annotation_and_layout_increment_pages": 2529,
+    "average_story_only_pages_per_chapter": 17.94,
+    "annotation_and_layout_increment_share_percent": 73.82
+  }
+}

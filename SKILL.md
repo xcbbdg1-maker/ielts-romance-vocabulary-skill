@@ -113,4 +113,6 @@ Reject the document if any card is split across pages, a line is clipped, a stor
 
 State chapters or segments produced, unique teaching units, quotas, density mode, pronunciation convention, validation results, page-render results, licensing limitations, and any unresolved linguistic uncertainty.
 
+When reporting a long DOCX series, separate the learner's linear-reading burden from the reference apparatus. If useful, build a measurement copy that preserves story text, inline Chinese glosses, headings, page geometry, and body typography while removing vocabulary-label, definition-card, and divider paragraphs. Render both editions with the same office engine and report the actual page counts, method, average story pages per chapter, and the share attributable to notes. Label the measurement copy as an audit artifact, not a replacement study edition.
+
 Never claim that the material is an official IELTS list, an official band predictor, or a substitute for active recall and spaced review.
